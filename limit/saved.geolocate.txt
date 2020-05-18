@@ -1,0 +1,48 @@
+Latitude: -6.9217
+Longitude: 107.6071
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Altitude: null
+Accuracy: 25000
+Speed: null
+Heading: null
+Platform: Linux x86_64
+Cores: 4
+Memory: undefined
+Screen Height: 768
+Screen Width: 1366
+Latitude: -6.9217
+Longitude: 107.6071
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Altitude: null
+Accuracy: 25000
+Speed: null
+Heading: null
+Platform: Linux x86_64
+Cores: 4
+Memory: undefined
+Screen Height: 768
+Screen Width: 1366
+Latitude: -6.983488742268628
+Longitude: 107.82970111827163
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1
+Altitude: 686.7376365661621
+Accuracy: 50
+Speed: 0
+Heading: null
+Platform: iPhone
+Cores: undefined
+Memory: undefined
+Screen Height: 667
+Screen Width: 375
+Latitude: -6.9217
+Longitude: 107.6071
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Altitude: null
+Accuracy: 25000
+Speed: null
+Heading: null
+Platform: Linux x86_64
+Cores: 4
+Memory: undefined
+Screen Height: 768
+Screen Width: 1366
