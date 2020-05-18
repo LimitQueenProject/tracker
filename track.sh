@@ -4,7 +4,7 @@ trap 'printf "\n";stop;exit 1' 2
 
 banner(){
 echo -e "\033[1;32m"
-figlet -f standard "Tracker"
+figlet -f standard "LIMTracker"
 }
 
 cek() {
@@ -12,6 +12,8 @@ cek() {
 command -v php > /dev/null 2>&1 || { echo >&2 "php belum di install, ketik > pkg install php -y"; exit 1; }
 command -v figlet > /dev/null 2>&1 || { echo >&2 "figlet belum di install, ketik > pkg install figlet -y"; exit 1; }
 command -v curl > /dev/null 2>&1 || { echo >&2 "curl belum di install, ketik > pkg install curl -y"; exit 1; }
+command -v ssh > /dev/null 2>&1 || { echo >&2 "ssh belum terinstall silahkakn  ketik > pkg install openssh -y"; exit 1; }
+
 
 }
 
@@ -239,7 +241,7 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
 php -t "limit/" -S 127.0.0.1:$port > /dev/null 2>&1 & 
 sleep 2
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Starting server...\e[0m\n"
-command -v ssh > /dev/null 2>&1 || { echo >&2 "ssh belum terinstall silahkakn  ketik > pkg install ssh -y"; exit 1; }
+command -v ssh > /dev/null 2>&1 || { echo >&2 "ssh belum terinstall silahkakn  ketik > pkg install openssh -y"; exit 1; }
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -316,25 +318,3 @@ fi
 banner
 cek
 start1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
